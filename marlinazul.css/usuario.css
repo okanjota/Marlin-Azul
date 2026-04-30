@@ -1,0 +1,16 @@
+.menu-container {
+    width: 40 px;
+    height: 35 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-container span {
+    width: 6px;
+    height: 80%;
+    background-color: #aadd02;
+    border-radius: 12px;
+    transition: 0.4s;
+}
