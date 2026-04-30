@@ -6,10 +6,20 @@
     <rel link="styleshet" href="../marlinazul.css/telaCadastro.css"></rel>
 </head>
 <body>
-    <div class="container">
-        <h1>Cadastro</h1>
-
-
+    <div class="login-container">
+        <form class="login-form">
+            <h1>Login</h1>
+            <div class input-group>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder=".........." required> 
+            </div>    
+            <button type="submit">Entrar</button>
+            <p class="footer-text">Esqueceu a senha?<a href="#">Clique aqui</a></p>
+        </form>
     </div>
 </body>
 </html>
